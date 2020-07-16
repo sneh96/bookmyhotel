@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+    <title>home</title>
+    <meta charset="utf-8">
+    <meta name="description" content="book and compare hotel">
+    <meta name="author" content="bookmyhotel">
+    <!-- For Responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- website icon -->
+    <link rel="icon" href="icons_96/favicon.png" type="image/png">
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header-section">
+        <header class="inner-header">
+            <a href="index.html"><img src="images/logo.png" alt="Website logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="srch">
+            <div>
+                <input type="text" placeholder="Search.." name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <p style="font-weight: 700;font-size: x-large;text-align: center">Contact us</p>
+        <div class="contact">
+        <div class="con_content">
+            <p>bookmyhotel is a hotel search engine. We search all hotels, to help you find the best hotel
+                prices.<br>
+                For any questions regarding your reservation, please contact us.<br>
+                For all other inquiries please fill out the form:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.2320568292394!2d-73.55346228446146!3d45.525535579101685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ba4da67d76d%3A0x1db0033612c25bfe!2s2100+Boul+de+Maisonneuve+E%2C+Montr%C3%A9al%2C+QC+H2K+4S1!5e0!3m2!1sen!2sca!4v1561202081803!5m2!1sen!2sca"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        <form action="" method="POST">
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <label for="firstname">Firstname</label>
+            <br>
+            <input type="text" name="fullname" id="firstname" placeholder="enter your firstname" maxlength="50"
+                required>*
+            <br>
+            <label for="lastname">Lastname</label>
+            <br>
+            <input type="text" name="lastname" id="lastname" placeholder="enter your lastname" maxlength="50" required>*
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="enter your email" maxlength="100" required>*
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male" id="m" checked><label for="m">Male</label>
+            <br>
+            <input type="radio" name="gender" value="female" id="f"><label for="f">Female</label>
+            <br>
+            <label for="questions">Queries</label>
+            <br>
+            <textarea name="questions" placeholder="enter your questions?" id="questions" maxlength="255" rows="3"
+                cols="30" required></textarea>*
+            <br>
+            <label for="city">City</label>
+            <br>
+            <input type="text" name="city" id="city" placeholder="enter your city" maxlength="50" size="20" required>*
+            <br>
+            <label for="Province">Province/State</label>
+            <br>
+            <input type="text" name="Province" id="Province" placeholder="enter your province" maxlength="50" size="20"
+                required>*
+            <br>
+            <label for="country">Country</label>
+            <br>
+            <select name="country" required>
+                <option value="" selected>Select one</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="America">America</option>
+            </select>*
+            <br>
+            <label for="postalcode">Postal code/Zip code</label>
+            <br>
+            <input type="text" name="postalcode" id="postalcode" placeholder="ex. A1B-2C3" maxlength="10" size="20"
+                required>*
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <h3>About Us</h3>
+        <div>
+            <p>2100, de Maisonneuve Blvd East,<br>Montreal, (Quebec)<br>H2K4S1</p>
+            <p><i class="fa fa-mobile-phone" style="font-size:24px;"></i>&nbsp;+1 514 514 5145</p>
+            <p><i class="fa fa-envelope-o" style="font-size:20px"></i>&nbsp;admin@isi-international.com</p>
+
+        </div>
+        <div class="links">
+            <p>Social links</p>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook" style="font-size:24px"></i>facebook</a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter" style="font-size:24px"></i>twitter</a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram" style="font-size:24px"></i>instagram</a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin" style="font-size:24px"></i>linkedin</a>
+        </div>
+        <p class="copyright">Copyright &copy; 2019 bookmyhotel. All right reserved.</p>
+    </footer>
+</body>
+
+</html>
